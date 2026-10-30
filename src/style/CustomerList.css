@@ -1,0 +1,67 @@
+.customer-list {
+  margin-top: 30px;
+}
+
+.customer-list h2 {
+  margin-bottom: 15px;
+}
+
+.customer-search {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+.customer-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+.customer-table th,
+.customer-table td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+
+.customer-table th {
+  background-color: #f3f4f6;
+  font-weight: bold;
+}
+
+.customer-table tbody tr:hover {
+  background-color: #f9fafb;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.actions button {
+  border: none;
+  padding: 7px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.edit-btn {
+  background-color: #f59e0b;
+  color: white;
+}
+
+.delete-btn {
+  background-color: #ef4444;
+  color: white;
+}
+
+.edit-btn:hover,
+.delete-btn:hover {
+  opacity: 0.85;
+}

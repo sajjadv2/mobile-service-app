@@ -1,0 +1,44 @@
+.service-list {
+  margin-top: 30px;
+}
+
+.service-list h2 {
+  margin-bottom: 15px;
+}
+
+.service-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  margin-top: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.service-table th,
+.service-table td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+
+.service-table th {
+  background-color: #f3f4f6;
+  font-weight: bold;
+}
+
+.service-table tbody tr:hover {
+  background-color: #f9fafb;
+}
+
+.service-table button {
+  border: none;
+  padding: 7px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 3px;
+}
+
+.service-table button:hover {
+  opacity: 0.85;
+}
